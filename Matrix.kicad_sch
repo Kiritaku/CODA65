@@ -72,6 +72,191 @@
         )
       )
     )
+    (symbol "Device:RotaryEncoder_Switch" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 0 6.604 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "RotaryEncoder_Switch" (at 0 -6.604 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -3.81 4.064 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 6.604 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "rotary switch encoder switch push button" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "RotaryEncoder*Switch*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "RotaryEncoder_Switch_0_1"
+        (rectangle (start -5.08 5.08) (end 5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (circle (center -3.81 0) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center -0.381 0) (radius 1.905)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (arc (start -0.381 2.667) (mid -3.0988 -0.0635) (end -0.381 -2.794)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 -1.778)
+            (xy -0.635 1.778)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.381 -1.778)
+            (xy -0.381 1.778)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.127 1.778)
+            (xy -0.127 -1.778)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 0)
+            (xy 3.429 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 1.016)
+            (xy 3.81 -1.016)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 -2.54)
+            (xy -3.81 -2.54)
+            (xy -3.81 -2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 2.54)
+            (xy -3.81 2.54)
+            (xy -3.81 2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 -3.048)
+            (xy -0.508 -2.794)
+            (xy 0.127 -2.413)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 2.921)
+            (xy -0.508 2.667)
+            (xy 0.127 2.286)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 -2.54)
+            (xy 4.318 -2.54)
+            (xy 4.318 -1.016)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 4.318 2.54)
+            (xy 4.318 1.016)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 0)
+            (xy -3.81 0)
+            (xy -3.81 -1.016)
+            (xy -3.302 -2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.318 0)
+            (xy -3.81 0)
+            (xy -3.81 1.016)
+            (xy -3.302 2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 4.318 -1.016) (radius 0.127)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (circle (center 4.318 1.016) (radius 0.127)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "RotaryEncoder_Switch_1_1"
+        (pin passive line (at -7.62 2.54 0) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "A" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 -2.54 0) (length 2.54)
+          (name "B" (effects (font (size 1.27 1.27))))
+          (number "B" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 0 0) (length 2.54)
+          (name "C" (effects (font (size 1.27 1.27))))
+          (number "C" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 2.54 180) (length 2.54)
+          (name "S1" (effects (font (size 1.27 1.27))))
+          (number "S1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -2.54 180) (length 2.54)
+          (name "S2" (effects (font (size 1.27 1.27))))
+          (number "S2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "PCM_marbastlib-mx:MX_SW_HS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "MX" (at 3.048 1.016 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -147,6 +332,21 @@
     )
   )
 
+
+  (global_label "Row0" (shape input) (at 20.32 49.53 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ca678f00-c2bf-4256-a14a-6b4b7f9578ef)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 12.3758 49.53 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Col0" (shape input) (at 25.4 33.02 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid eece06e0-0e6c-4231-887f-ce1be597acb2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 25.4 25.7411 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
 
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS") (at 146.05 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
@@ -351,8 +551,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 148.59 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid fb660abb-e483-46de-9d3a-4046ed2834c2))
     (pin "1" (uuid 7df26047-b529-4e92-a31f-adf8dfad9edd))
+    (pin "2" (uuid fb660abb-e483-46de-9d3a-4046ed2834c2))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -409,12 +609,44 @@
     (property "Sim.Pins" "1=K 2=A" (at 46.99 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 98525f91-fedf-4b33-a83b-97d857e16e45))
     (pin "1" (uuid c162cc47-edc1-4315-9e01-144a9676d871))
+    (pin "2" (uuid 98525f91-fedf-4b33-a83b-97d857e16e45))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
           (reference "D30") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Small") (at 237.49 58.42 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0e4deb92-e47c-428c-b1f6-0772bf065b44)
+    (property "Reference" "D70" (at 240.03 57.15 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "D_Small" (at 240.03 59.69 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 237.49 58.42 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 237.49 58.42 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "D" (at 237.49 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 237.49 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6f3ab615-7587-45b1-bb4b-9fd06a7e272b))
+    (pin "2" (uuid 6348a097-7bc1-4bfa-9bd1-98b6ecc645cb))
+    (instances
+      (project "CODA65"
+        (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
+          (reference "D70") (unit 1)
         )
       )
     )
@@ -467,8 +699,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 120.65 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid cfd18598-a225-4818-ae5e-3b368066f60c))
     (pin "1" (uuid 5d31c3f0-4f30-4924-b6bc-91ec640c3ad6))
+    (pin "2" (uuid cfd18598-a225-4818-ae5e-3b368066f60c))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -499,8 +731,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 161.29 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 75cfbc21-896c-410b-b938-9706626b763e))
     (pin "1" (uuid eac450bf-3ee5-4d6c-9ca6-d57efacf4df6))
+    (pin "2" (uuid 75cfbc21-896c-410b-b938-9706626b763e))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -531,8 +763,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 134.62 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 574da88c-56cd-4da8-8a81-314db4613de5))
     (pin "1" (uuid 7b925f9c-4444-4f3f-8708-d1ace30e87de))
+    (pin "2" (uuid 574da88c-56cd-4da8-8a81-314db4613de5))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -615,8 +847,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 121.92 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7bd86d74-cf58-45f2-b745-e96cf3be8fde))
     (pin "1" (uuid 34d8f134-99ff-44e6-a234-ba048ffccada))
+    (pin "2" (uuid 7bd86d74-cf58-45f2-b745-e96cf3be8fde))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -673,8 +905,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 147.32 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0dab7b9b-9d96-4431-ab07-38e63637d05f))
     (pin "1" (uuid c868e214-d50a-41f6-a302-c12635eedda8))
+    (pin "2" (uuid 0dab7b9b-9d96-4431-ab07-38e63637d05f))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -731,8 +963,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 160.02 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 348bdcbd-7d93-458c-af6f-62cd928220bc))
     (pin "1" (uuid cdf8d600-52dc-48f5-8808-e06195832446))
+    (pin "2" (uuid 348bdcbd-7d93-458c-af6f-62cd928220bc))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -763,8 +995,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 115.57 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 20e3520d-c7f4-48c3-b622-783479d939db))
     (pin "1" (uuid ac1d3424-aa4c-491b-947b-7e6b8b95897e))
+    (pin "2" (uuid 20e3520d-c7f4-48c3-b622-783479d939db))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -795,8 +1027,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 153.67 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 59d2a81a-a7a0-4d6f-9521-4535e542ade2))
     (pin "1" (uuid ad06c145-444e-49bf-bf58-0732f6244600))
+    (pin "2" (uuid 59d2a81a-a7a0-4d6f-9521-4535e542ade2))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -827,8 +1059,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 146.05 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 927e0f72-1878-4896-a678-b7dcdd4f4bbb))
     (pin "1" (uuid 79c940ed-946a-47f1-8f92-4f98ff9b0c72))
+    (pin "2" (uuid 927e0f72-1878-4896-a678-b7dcdd4f4bbb))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -859,8 +1091,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 95.25 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3e18b326-dfca-4a64-b2ec-943d9a8d2dcc))
     (pin "1" (uuid 039a910e-38b4-44fe-b2f6-2a7fb850da99))
+    (pin "2" (uuid 3e18b326-dfca-4a64-b2ec-943d9a8d2dcc))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -891,8 +1123,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 45.72 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d834dcee-1516-4136-b3fc-bc3c306d8643))
     (pin "1" (uuid 71bce615-e355-4fa5-a332-a302cb784a85))
+    (pin "2" (uuid d834dcee-1516-4136-b3fc-bc3c306d8643))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -975,8 +1207,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 77.47 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0823f9dc-198b-46ff-a943-57af9c7a684a))
     (pin "1" (uuid 1700582a-fdd3-4961-ab12-56843e162140))
+    (pin "2" (uuid 0823f9dc-198b-46ff-a943-57af9c7a684a))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1059,8 +1291,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 133.35 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0964f700-7bf9-4747-aff7-4aa37e913171))
     (pin "1" (uuid 3627fa8b-7b65-4c9d-8aee-a1c180a9dfd4))
+    (pin "2" (uuid 0964f700-7bf9-4747-aff7-4aa37e913171))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1091,8 +1323,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 64.77 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 8b8f3340-36cb-40fc-8233-55fd06fcfe50))
     (pin "1" (uuid 098ca471-5965-4f93-a8a4-03d67639ab24))
+    (pin "2" (uuid 8b8f3340-36cb-40fc-8233-55fd06fcfe50))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1175,8 +1407,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 109.22 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6209f09e-75a2-447d-b9d2-83058bb02c57))
     (pin "1" (uuid cb499eb9-9f05-46b0-a123-52b93089f1c7))
+    (pin "2" (uuid 6209f09e-75a2-447d-b9d2-83058bb02c57))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1233,8 +1465,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 30.48 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c6beb28d-a6cb-476b-baa8-02448edccc2b))
     (pin "1" (uuid d4305c2c-c739-48aa-a05a-9d6f6278ceec))
+    (pin "2" (uuid c6beb28d-a6cb-476b-baa8-02448edccc2b))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1291,8 +1523,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 201.93 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5d209d8f-df60-45cd-9b3d-88df9d591f85))
     (pin "1" (uuid 8f1c2a25-7c24-4f48-8c51-57af215dbb18))
+    (pin "2" (uuid 5d209d8f-df60-45cd-9b3d-88df9d591f85))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1323,8 +1555,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 93.98 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5583fcb2-09fe-419f-8ed7-f9522be4805c))
     (pin "1" (uuid f7c36b06-c35c-4aca-8da6-883bc7a49641))
+    (pin "2" (uuid 5583fcb2-09fe-419f-8ed7-f9522be4805c))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1355,8 +1587,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 166.37 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 4a1f1f1e-bbc3-4b9e-bef3-e12c5dbfd623))
     (pin "1" (uuid 2f5e9768-e255-46ac-9090-ce581bf45706))
+    (pin "2" (uuid 4a1f1f1e-bbc3-4b9e-bef3-e12c5dbfd623))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1387,8 +1619,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 201.93 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a8eaf0cd-66aa-4a63-b979-cab0e7606efe))
     (pin "1" (uuid 8b8e3b27-29ac-4775-b359-b03695dda73b))
+    (pin "2" (uuid a8eaf0cd-66aa-4a63-b979-cab0e7606efe))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1419,8 +1651,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 195.58 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7ff0aaf5-5f54-4bdc-bf4a-b5b30ccc9bfe))
     (pin "1" (uuid 4be9b7cb-300c-4925-afd8-953e758fc44b))
+    (pin "2" (uuid 7ff0aaf5-5f54-4bdc-bf4a-b5b30ccc9bfe))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1451,8 +1683,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 96.52 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ce0cd132-27ca-499e-940b-598f69e0670f))
     (pin "1" (uuid 4677a54c-95b3-4559-bf76-40ea9a6405a8))
+    (pin "2" (uuid ce0cd132-27ca-499e-940b-598f69e0670f))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1561,8 +1793,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 81.28 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5ea98932-7cc0-4d54-b030-75c03a2055a5))
     (pin "1" (uuid 75f07605-8435-45fa-975b-69f7f1f63e2f))
+    (pin "2" (uuid 5ea98932-7cc0-4d54-b030-75c03a2055a5))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1645,8 +1877,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 55.88 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c6f43af1-cc34-4d1e-a848-38e3131139b9))
     (pin "1" (uuid c4dce0b1-b1fc-47e0-86f2-391e7fe755c9))
+    (pin "2" (uuid c6f43af1-cc34-4d1e-a848-38e3131139b9))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1703,8 +1935,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 214.63 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 84fe9a10-7f65-465b-8efd-138e6f78f884))
     (pin "1" (uuid 71f29119-1457-4831-97fc-1466fe966f8e))
+    (pin "2" (uuid 84fe9a10-7f65-465b-8efd-138e6f78f884))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1761,8 +1993,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 68.58 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f11c489f-2314-43fe-95c5-5263fc1bbfec))
     (pin "1" (uuid 1eab007d-b88b-4c50-8d5a-3e3a0b9236dc))
+    (pin "2" (uuid f11c489f-2314-43fe-95c5-5263fc1bbfec))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1845,8 +2077,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 214.63 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 955981e1-9ffc-4404-8c2d-bf0c11e3c7eb))
     (pin "1" (uuid 636b242e-dc90-4faa-946d-f13c1fbcc8c6))
+    (pin "2" (uuid 955981e1-9ffc-4404-8c2d-bf0c11e3c7eb))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1903,8 +2135,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 102.87 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a4f8fba8-1502-4b6a-a552-fb0f3c3c812d))
     (pin "1" (uuid aca9912d-4674-4025-b7bd-66b278965603))
+    (pin "2" (uuid a4f8fba8-1502-4b6a-a552-fb0f3c3c812d))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1987,8 +2219,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 172.72 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 860a22cd-3609-432c-88ba-2717fe80d58c))
     (pin "1" (uuid 5773ace9-cde5-4848-80b9-4fdedb37b648))
+    (pin "2" (uuid 860a22cd-3609-432c-88ba-2717fe80d58c))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2019,8 +2251,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 200.66 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c99569d9-4de8-4883-ae7a-66e964849b67))
     (pin "1" (uuid 7d4e4ab9-34dd-4b87-ba62-9a5e832a54c5))
+    (pin "2" (uuid c99569d9-4de8-4883-ae7a-66e964849b67))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2108,6 +2340,35 @@
     )
   )
 
+  (symbol (lib_id "Device:RotaryEncoder_Switch") (at 248.92 52.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 865bd93b-0226-42b0-933d-eab1f380a35e)
+    (property "Reference" "SW3" (at 248.92 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "RotaryEncoder_Switch" (at 248.92 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 245.11 48.006 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 248.92 45.466 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "A" (uuid 9e24dadf-5e24-4916-82e2-b74c008506d4))
+    (pin "B" (uuid 2c0239b7-fd9f-4f49-b773-fc3c1dff4c78))
+    (pin "C" (uuid 80139cdf-075e-4d21-b55b-abdc2ae92a8b))
+    (pin "S1" (uuid 8005e8f9-acdb-40ae-971c-475f18bbcae0))
+    (pin "S2" (uuid 0ef9c05c-39f7-42b5-96c7-36bd69b632ad))
+    (instances
+      (project "CODA65"
+        (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
+          (reference "SW3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Small") (at 72.39 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8823b23f-c7a8-4e00-bf39-5b1b447f427d)
@@ -2129,8 +2390,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 72.39 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid da3bb8d1-44d2-4690-aa08-9e28f4f88bdd))
     (pin "1" (uuid 9c694614-cee9-479e-adcf-a0d64461701e))
+    (pin "2" (uuid da3bb8d1-44d2-4690-aa08-9e28f4f88bdd))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2161,8 +2422,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 123.19 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 737e2382-e140-4980-acb3-666ab4e53a80))
     (pin "1" (uuid b5ab891c-62d7-4f49-a3fb-2528c6a42776))
+    (pin "2" (uuid 737e2382-e140-4980-acb3-666ab4e53a80))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2219,8 +2480,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 157.48 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c8123bf9-8031-47e8-925e-3764eeadfd65))
     (pin "1" (uuid 95eb76de-e5bd-406b-9b56-e39a752f7225))
+    (pin "2" (uuid c8123bf9-8031-47e8-925e-3764eeadfd65))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2277,8 +2538,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 30.48 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 32e08eaa-30b2-4a66-9eb6-0bc4999fdc60))
     (pin "1" (uuid 35d8d38b-bd57-4d14-aec0-d4de0714ae8a))
+    (pin "2" (uuid 32e08eaa-30b2-4a66-9eb6-0bc4999fdc60))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2309,8 +2570,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 214.63 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f9106dfd-6454-4e89-bc29-be477c3a1146))
     (pin "1" (uuid 0f90a679-0542-478b-9b01-c55507e8f742))
+    (pin "2" (uuid f9106dfd-6454-4e89-bc29-be477c3a1146))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2341,8 +2602,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 110.49 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 27cf3378-9028-443d-afc1-4b472e211d81))
     (pin "1" (uuid a0c7c55c-eeee-4f23-ad48-49b8d7248170))
+    (pin "2" (uuid 27cf3378-9028-443d-afc1-4b472e211d81))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2425,8 +2686,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 106.68 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a2568c30-1749-412a-b619-d7f2a2b92aa1))
     (pin "1" (uuid 2e3451be-5d46-4021-af03-0be1a2e5b68b))
+    (pin "2" (uuid a2568c30-1749-412a-b619-d7f2a2b92aa1))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2509,8 +2770,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 34.29 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid abeb2ec1-8c2c-4d0f-8f51-86e0845ebf4a))
     (pin "1" (uuid 36931f51-661f-4dad-b6a6-9026c1bb261f))
+    (pin "2" (uuid abeb2ec1-8c2c-4d0f-8f51-86e0845ebf4a))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2619,8 +2880,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 185.42 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 132d52d2-3cbb-44a2-b34a-d82e63a5f8bd))
     (pin "1" (uuid e148ac2b-ede6-48c0-a84a-c29373f6a37c))
+    (pin "2" (uuid 132d52d2-3cbb-44a2-b34a-d82e63a5f8bd))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2677,8 +2938,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 182.88 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ca8c02e8-e312-41f0-8a93-387999785ecc))
     (pin "1" (uuid d5a9b5a1-6c5f-4dbd-ac30-d4cec416ea7e))
+    (pin "2" (uuid ca8c02e8-e312-41f0-8a93-387999785ecc))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2709,8 +2970,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 71.12 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7715c6ca-042c-4edb-88bb-1ca85774f4bb))
     (pin "1" (uuid 7521a4fc-4d5f-4ab2-ab21-50d233bfb531))
+    (pin "2" (uuid 7715c6ca-042c-4edb-88bb-1ca85774f4bb))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2767,8 +3028,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 97.79 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 40491083-c898-4f74-aabb-b5896249aa49))
     (pin "1" (uuid 95343770-5dec-4339-b76b-46de689478d8))
+    (pin "2" (uuid 40491083-c898-4f74-aabb-b5896249aa49))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2825,8 +3086,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 198.12 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 07697489-937f-4aeb-99c5-e8bc24b33cc2))
     (pin "1" (uuid 79623d19-f88f-4f88-8e6a-cb01da98cb82))
+    (pin "2" (uuid 07697489-937f-4aeb-99c5-e8bc24b33cc2))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2883,8 +3144,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 58.42 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid df4a594e-b018-4206-bc06-1da83e076946))
     (pin "1" (uuid ada0018c-3e62-40a7-9bb1-b87fa0ec0682))
+    (pin "2" (uuid df4a594e-b018-4206-bc06-1da83e076946))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2941,8 +3202,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 132.08 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 94fb5939-1dc8-4a47-acfb-cd87b93bd6be))
     (pin "1" (uuid 6857cfc3-a34e-4943-bc97-5df6b6fded8a))
+    (pin "2" (uuid 94fb5939-1dc8-4a47-acfb-cd87b93bd6be))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2999,8 +3260,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 158.75 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 31bb460f-08f2-44c5-94fc-3a513a419db4))
     (pin "1" (uuid 0732d0c0-0c32-404d-9dba-543b529c956f))
+    (pin "2" (uuid 31bb460f-08f2-44c5-94fc-3a513a419db4))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3109,8 +3370,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 59.69 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7cd43b4e-23e2-46ea-b372-6863558bdeaf))
     (pin "1" (uuid dc56e57c-ac9f-4c66-b7a0-55098f0ec73e))
+    (pin "2" (uuid 7cd43b4e-23e2-46ea-b372-6863558bdeaf))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3167,8 +3428,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 135.89 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 57875e2e-0729-4b09-b85a-df3114ef3407))
     (pin "1" (uuid a5ab5d50-c84a-4377-9e0d-a30378267586))
+    (pin "2" (uuid 57875e2e-0729-4b09-b85a-df3114ef3407))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3199,8 +3460,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 171.45 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7b185ac3-3355-41cb-b755-9f35d155e186))
     (pin "1" (uuid f96e9ef4-baf3-4a45-a94d-0a5d5ecadf47))
+    (pin "2" (uuid 7b185ac3-3355-41cb-b755-9f35d155e186))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3257,8 +3518,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 140.97 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bdc078c5-7f6d-46e6-9db4-cfa3ea0f224f))
     (pin "1" (uuid 9b96c4fc-f877-44df-ac0c-e455d258eae1))
+    (pin "2" (uuid bdc078c5-7f6d-46e6-9db4-cfa3ea0f224f))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3315,8 +3576,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 33.02 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ddd7643b-c605-42cf-adec-72c216301558))
     (pin "1" (uuid 4101b369-f6dc-43df-a512-61cd5b159da4))
+    (pin "2" (uuid ddd7643b-c605-42cf-adec-72c216301558))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3347,8 +3608,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 119.38 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 72d2db9e-d980-42a3-8527-7b3f7ea654e4))
     (pin "1" (uuid eb9c397a-8765-4c38-a423-4faed5ed009e))
+    (pin "2" (uuid 72d2db9e-d980-42a3-8527-7b3f7ea654e4))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3379,8 +3640,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 184.15 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid cffc709e-1164-40f4-9cec-0db397173cf2))
     (pin "1" (uuid 79ad573f-f4dc-46b6-a1ee-188793d45cd7))
+    (pin "2" (uuid cffc709e-1164-40f4-9cec-0db397173cf2))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3437,8 +3698,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 144.78 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid faf387b2-576c-4a92-8d86-c4ae39e35ccf))
     (pin "1" (uuid b70c65e6-7a14-464d-b4dd-6e8750ac2bc8))
+    (pin "2" (uuid faf387b2-576c-4a92-8d86-c4ae39e35ccf))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3521,8 +3782,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 85.09 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6be4dde5-7c9b-4b82-bbc0-e91d494a8cdc))
     (pin "1" (uuid 3350f6d3-814b-43b6-ae96-67cf3612aa16))
+    (pin "2" (uuid 6be4dde5-7c9b-4b82-bbc0-e91d494a8cdc))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3553,8 +3814,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 82.55 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b47b20dc-92cc-4e9a-9d11-611fe2f4bc49))
     (pin "1" (uuid 0ac172ab-4e2c-4f91-ab2b-c49f86aa0e05))
+    (pin "2" (uuid b47b20dc-92cc-4e9a-9d11-611fe2f4bc49))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3585,8 +3846,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 107.95 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 31513a71-be50-4e33-8a56-54b45eb819e8))
     (pin "1" (uuid aef912bc-0d15-4161-bda3-a907b5f819bd))
+    (pin "2" (uuid 31513a71-be50-4e33-8a56-54b45eb819e8))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3617,8 +3878,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 189.23 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a9aceecd-cb68-482f-b604-a0c9cf24c869))
     (pin "1" (uuid 83c10cab-de83-4e40-bd9e-19138374be5c))
+    (pin "2" (uuid a9aceecd-cb68-482f-b604-a0c9cf24c869))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3675,8 +3936,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 170.18 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 75930960-6e1b-41db-92da-5138c6110476))
     (pin "1" (uuid 72938963-5f14-4403-b4f5-6fdf742d0eae))
+    (pin "2" (uuid 75930960-6e1b-41db-92da-5138c6110476))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3707,8 +3968,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 69.85 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9becae4b-eef4-4134-b8d3-b3bc61cbbbdb))
     (pin "1" (uuid f2d26445-f39e-4cc7-9cb7-7a48beda7837))
+    (pin "2" (uuid 9becae4b-eef4-4134-b8d3-b3bc61cbbbdb))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3739,8 +4000,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 57.15 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 1bfa6d67-c703-45fb-9359-a8c89ae5d692))
     (pin "1" (uuid d08b927d-da6b-4315-9655-a2686e64b7eb))
+    (pin "2" (uuid 1bfa6d67-c703-45fb-9359-a8c89ae5d692))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3771,8 +4032,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 173.99 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 42d6e09f-e736-4ba7-adbc-382eee572ecb))
     (pin "1" (uuid 481cde1e-a0d6-4bea-b5a6-ce4633be7a59))
+    (pin "2" (uuid 42d6e09f-e736-4ba7-adbc-382eee572ecb))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3803,8 +4064,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 52.07 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 850aa897-4038-49d7-9000-c8b680e9b38f))
     (pin "1" (uuid 307cd52f-700d-4382-8b55-e135cd5b5dbe))
+    (pin "2" (uuid 850aa897-4038-49d7-9000-c8b680e9b38f))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3991,8 +4252,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 128.27 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3e836d42-8fa8-4b60-bfea-03124873ff04))
     (pin "1" (uuid 81d65ddb-1a86-4756-be6e-d21ca8986027))
+    (pin "2" (uuid 3e836d42-8fa8-4b60-bfea-03124873ff04))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4023,8 +4284,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 90.17 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid caa9a14b-8088-4674-b477-a38df6b534f7))
     (pin "1" (uuid 8aef8bf7-7df0-4f9b-bb18-b4475924e2fd))
+    (pin "2" (uuid caa9a14b-8088-4674-b477-a38df6b534f7))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4055,8 +4316,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 43.18 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 90e1708a-ff03-47dd-94e2-399441cf92f3))
     (pin "1" (uuid b5a3efb3-75d9-4b63-a7b6-55954ffcfda3))
+    (pin "2" (uuid 90e1708a-ff03-47dd-94e2-399441cf92f3))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4087,8 +4348,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 83.82 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c13e529e-fe43-4971-9ad2-b14e876a885f))
     (pin "1" (uuid 1efaf688-2a45-4607-ab6e-741ce55f5d34))
+    (pin "2" (uuid c13e529e-fe43-4971-9ad2-b14e876a885f))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
