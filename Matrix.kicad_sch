@@ -616,9 +616,6 @@
   (junction (at 161.29 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 4d52cc81-08c0-442f-ae1e-048c76076dcf)
   )
-  (junction (at 39.37 63.5) (diameter 0) (color 0 0 0 0)
-    (uuid 558fb34c-ab87-4e12-81ce-5f5921c2c3d9)
-  )
   (junction (at 86.36 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 57204cef-3181-4fb6-92cb-639745785cc5)
   )
@@ -754,6 +751,9 @@
   (junction (at 76.2 133.35) (diameter 0) (color 0 0 0 0)
     (uuid d2478602-f1bd-49c4-8466-4bd90d0941a9)
   )
+  (junction (at 39.37 63.5) (diameter 0) (color 0 0 0 0)
+    (uuid d9e0e3b9-547e-4d89-a6c8-4817edda7d18)
+  )
   (junction (at 137.16 133.35) (diameter 0) (color 0 0 0 0)
     (uuid dab975b1-4f8e-4226-b66b-1332ffc79d7a)
   )
@@ -784,6 +784,8 @@
   (junction (at 40.64 154.94) (diameter 0) (color 0 0 0 0)
     (uuid fdf37774-5e0d-4196-9ac7-7064dc19cd99)
   )
+
+  (no_connect (at 255.27 58.42) (uuid 3095add2-a606-4b37-aaa0-1f0d53e568a2))
 
   (wire (pts (xy 209.55 34.29) (xy 209.55 49.53))
     (stroke (width 0) (type default))
@@ -885,7 +887,7 @@
     (stroke (width 0) (type default))
     (uuid 224ccb00-9963-4897-a865-f4d524e00f24)
   )
-  (wire (pts (xy 39.37 63.5) (xy 68.58 63.5))
+  (wire (pts (xy 21.59 63.5) (xy 39.37 63.5))
     (stroke (width 0) (type default))
     (uuid 2268e346-5fe0-4668-8cd0-ff5bbda889eb)
   )
@@ -949,7 +951,7 @@
     (stroke (width 0) (type default))
     (uuid 313a15e2-f618-4513-b61e-06cb4812e102)
   )
-  (wire (pts (xy 57.15 33.02) (xy 57.15 49.53))
+  (wire (pts (xy 55.88 33.02) (xy 55.88 49.53))
     (stroke (width 0) (type default))
     (uuid 32730a2f-a74e-42e8-939c-36de190b490a)
   )
@@ -1072,10 +1074,6 @@
   (wire (pts (xy 68.58 63.5) (xy 99.06 63.5))
     (stroke (width 0) (type default))
     (uuid 53eda638-f344-44ec-8757-9bb9c0c3b2c8)
-  )
-  (wire (pts (xy 57.15 49.53) (xy 55.88 49.53))
-    (stroke (width 0) (type default))
-    (uuid 541fab4b-e837-44dd-9eda-f707ef12d8b1)
   )
   (wire (pts (xy 163.83 33.02) (xy 163.83 49.53))
     (stroke (width 0) (type default))
@@ -1292,6 +1290,10 @@
   (wire (pts (xy 224.79 73.66) (xy 226.06 73.66))
     (stroke (width 0) (type default))
     (uuid 8dc79ff1-c074-4499-b7c1-01b3daf92316)
+  )
+  (wire (pts (xy 39.37 63.5) (xy 68.58 63.5))
+    (stroke (width 0) (type default))
+    (uuid 8e40e3d3-58ff-41a9-b394-ca0a515c0d6d)
   )
   (wire (pts (xy 203.2 146.05) (xy 203.2 149.86))
     (stroke (width 0) (type default))
@@ -1529,10 +1531,6 @@
     (stroke (width 0) (type default))
     (uuid d4570e21-80ee-4477-85ff-1b399538012c)
   )
-  (wire (pts (xy 54.61 49.53) (xy 55.88 49.53))
-    (stroke (width 0) (type default))
-    (uuid d46c7893-dd08-4e1e-baff-028ec875dc35)
-  )
   (wire (pts (xy 31.75 124.46) (xy 31.75 128.27))
     (stroke (width 0) (type default))
     (uuid d562f634-fc67-4453-aef7-7ce8d118ed34)
@@ -1568,10 +1566,6 @@
   (wire (pts (xy 185.42 78.74) (xy 185.42 83.82))
     (stroke (width 0) (type default))
     (uuid dc8e437f-2734-4e91-a3a5-0f7de1371d47)
-  )
-  (wire (pts (xy 21.59 63.5) (xy 39.37 63.5))
-    (stroke (width 0) (type default))
-    (uuid dc92b256-c66c-4966-af68-3885e1be80e4)
   )
   (wire (pts (xy 212.09 128.27) (xy 209.55 128.27))
     (stroke (width 0) (type default))
@@ -1777,10 +1771,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "COL2" (shape input) (at 57.15 33.02 90) (fields_autoplaced)
+  (global_label "COL2" (shape input) (at 55.88 33.02 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 88262ba7-2b26-4406-a41a-b60eedb930b7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 57.15 25.1967 90)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.88 25.1967 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1869,7 +1863,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 162.56 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 162.56 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00961753-d98f-4de6-99c4-ac4995af2f2d)
     (property "Reference" "D13" (at 162.56 77.47 0)
@@ -1878,15 +1872,15 @@
     (property "Value" "BAT54C" (at 162.56 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 160.655 80.645 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 164.465 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 164.592 83.82 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 160.528 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 1a48ca50-a576-46cd-b47b-f8fd148bfc1a))
     (pin "2" (uuid 55e130f9-2192-493d-bcb2-dcb5f59f183d))
     (pin "3" (uuid cdbb7f33-1633-4d1b-9157-933d3c78850f))
-    (pin "1" (uuid 1a48ca50-a576-46cd-b47b-f8fd148bfc1a))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -1922,7 +1916,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 69.85 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 69.85 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04553374-2d6a-4ef9-8f5b-167a0aad09eb)
     (property "Reference" "D10" (at 69.85 77.47 0)
@@ -1931,15 +1925,15 @@
     (property "Value" "BAT54C" (at 69.85 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 67.945 80.645 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 71.755 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 71.882 83.82 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 67.818 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 5b604b93-a811-4d00-9bb6-9acf36420b69))
     (pin "2" (uuid 7d07b490-b137-4957-9b0a-e86240547a57))
     (pin "3" (uuid a2b6f167-0483-4729-82fa-6f78a64d1b53))
-    (pin "1" (uuid 5b604b93-a811-4d00-9bb6-9acf36420b69))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2105,7 +2099,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 193.04 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 193.04 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f700230-030b-414d-82a7-8332d1f6a75c)
     (property "Reference" "D14" (at 193.04 77.47 0)
@@ -2114,15 +2108,15 @@
     (property "Value" "BAT54C" (at 193.04 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 191.135 80.645 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 194.945 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 195.072 83.82 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 191.008 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid c159f8bf-5002-44c6-9fa6-4722f8e81eb5))
     (pin "2" (uuid f04e71e1-b73f-45fe-9c0f-732ce2467954))
     (pin "3" (uuid c4298b1f-1a29-4bd4-8bfb-db6c84d6ff7f))
-    (pin "1" (uuid c159f8bf-5002-44c6-9fa6-4722f8e81eb5))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2158,7 +2152,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 39.37 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 39.37 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 130d686c-edf0-46f2-8141-486888479916)
     (property "Reference" "D9" (at 39.37 77.47 0)
@@ -2167,15 +2161,15 @@
     (property "Value" "BAT54C" (at 39.37 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 37.465 80.645 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 41.275 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 41.402 83.82 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 37.338 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid d1b2ddcb-1942-41e8-838d-886f677bb882))
     (pin "2" (uuid 4490bd23-749d-476b-b31d-13318fb257d6))
     (pin "3" (uuid 6c9be95c-b013-475f-8563-3eb6378ea781))
-    (pin "1" (uuid d1b2ddcb-1942-41e8-838d-886f677bb882))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2185,7 +2179,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 132.08 106.68 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 132.08 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17a3bd71-7da6-45c8-8acc-77ab4477efec)
     (property "Reference" "D20" (at 132.08 100.33 0)
@@ -2194,15 +2188,15 @@
     (property "Value" "BAT54C" (at 132.08 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 130.175 103.505 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 133.985 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 134.112 106.68 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 130.048 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid ab2bb8a3-cb97-49bc-9fd5-16138bd16608))
     (pin "2" (uuid ff4aac9e-329a-4cb1-bb25-1d43e741d9f1))
     (pin "3" (uuid b46b3886-b166-4444-8c4e-c869ef5daca5))
-    (pin "1" (uuid ab2bb8a3-cb97-49bc-9fd5-16138bd16608))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2290,7 +2284,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 210.82 149.86 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 210.82 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dabe5f6-1a2a-467f-b611-1a074f73a51d)
     (property "Reference" "D34" (at 210.82 143.51 0)
@@ -2299,15 +2293,15 @@
     (property "Value" "BAT54C" (at 210.82 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 208.915 146.685 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 212.725 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 212.852 149.86 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 208.788 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 9a298858-060d-4b29-90b6-71df2f9281ea))
     (pin "2" (uuid 2a50cb9b-c126-4107-8345-0532e3548a02))
     (pin "3" (uuid 5131ed13-7df3-440d-9c5b-a5eddbacb308))
-    (pin "1" (uuid 9a298858-060d-4b29-90b6-71df2f9281ea))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2447,7 +2441,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 234.95 106.68 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 234.95 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3716d8d6-91f8-4976-8919-a8b8bf86aa34)
     (property "Reference" "D23" (at 234.95 100.33 0)
@@ -2456,15 +2450,15 @@
     (property "Value" "BAT54C" (at 234.95 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 233.045 103.505 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 236.855 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 236.982 106.68 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 232.918 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid f01071c9-cfa3-4322-a7ea-56cc2cf500d8))
     (pin "2" (uuid 34d83042-ad22-48bd-a35f-28cf19eef68f))
     (pin "3" (uuid 2087f26f-b30b-4661-9e6c-813ff8a8e13f))
-    (pin "1" (uuid f01071c9-cfa3-4322-a7ea-56cc2cf500d8))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2474,7 +2468,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 39.37 106.68 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 39.37 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d0280bc-5c32-4c0c-b334-0ecac6aaccda)
     (property "Reference" "D17" (at 39.37 100.33 0)
@@ -2483,15 +2477,15 @@
     (property "Value" "BAT54C" (at 39.37 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 37.465 103.505 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 41.275 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 41.402 106.68 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 37.338 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 9f6970ec-8dec-4661-9495-c94ec31c82a7))
     (pin "2" (uuid 01bd842d-1300-4982-9d56-8322882dcee4))
     (pin "3" (uuid f15d68dd-a171-410b-b1cf-25f8f5f9d0df))
-    (pin "1" (uuid 9f6970ec-8dec-4661-9495-c94ec31c82a7))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2628,7 +2622,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 158.75 149.86 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 158.75 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d003643-0a55-475b-b961-f41f30f0ec59)
     (property "Reference" "D33" (at 158.75 143.51 0)
@@ -2637,15 +2631,15 @@
     (property "Value" "BAT54C" (at 158.75 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 156.845 146.685 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 160.655 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 160.782 149.86 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 156.718 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 97d63759-ec29-4813-9274-3644d6b65fee))
     (pin "2" (uuid b406bf58-7680-4f8d-80ec-390dc555da67))
     (pin "3" (uuid 918fb54e-40ce-451e-9b9c-c52b30947f1e))
-    (pin "1" (uuid 97d63759-ec29-4813-9274-3644d6b65fee))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2655,7 +2649,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 76.2 128.27 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 76.2 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c8dd5c8-f889-44b2-9319-0295974f3896)
     (property "Reference" "D25" (at 76.2 121.92 0)
@@ -2664,15 +2658,15 @@
     (property "Value" "BAT54C" (at 76.2 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 74.295 125.095 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 78.105 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 78.232 128.27 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 74.168 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid ab2592f4-8eee-4191-8ebd-e62a928150cb))
     (pin "2" (uuid ac5d434b-c6cd-4f10-b9f5-d9083a77d717))
     (pin "3" (uuid 90200bfb-d41d-4ceb-b7c9-fa968fe839dd))
-    (pin "1" (uuid ab2592f4-8eee-4191-8ebd-e62a928150cb))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -2916,7 +2910,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 107.95 128.27 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 107.95 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73702191-f1c2-44f9-b732-124307f1f991)
     (property "Reference" "D26" (at 107.95 121.92 0)
@@ -2925,15 +2919,15 @@
     (property "Value" "BAT54C" (at 107.95 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 106.045 125.095 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 109.855 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 109.982 128.27 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 105.918 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid f12210cf-6201-49ff-9dac-f7593ce29587))
     (pin "2" (uuid 77c9a8b3-aacd-409a-982a-b37f6e5c21d0))
     (pin "3" (uuid be1dc19a-12e4-4bf1-a060-a586f1981472))
-    (pin "1" (uuid f12210cf-6201-49ff-9dac-f7593ce29587))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3021,7 +3015,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 194.31 106.68 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 194.31 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8185166e-dee9-4f55-8306-d331009b9506)
     (property "Reference" "D22" (at 194.31 100.33 0)
@@ -3030,15 +3024,15 @@
     (property "Value" "BAT54C" (at 194.31 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 192.405 103.505 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 196.215 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 196.342 106.68 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 192.278 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 443ea5a4-e83a-4d23-befa-9ca9a6b0e84b))
     (pin "2" (uuid c923d517-97a6-4564-84d5-3ea8c7c35817))
     (pin "3" (uuid c0cb4ac8-c4fe-4b8e-a936-b6758d279faf))
-    (pin "1" (uuid 443ea5a4-e83a-4d23-befa-9ca9a6b0e84b))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3155,7 +3149,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 222.25 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 222.25 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86a178fe-91f0-4790-8669-d83c144f80f3)
     (property "Reference" "D7" (at 222.25 52.07 0)
@@ -3164,15 +3158,15 @@
     (property "Value" "BAT54C" (at 222.25 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 220.345 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 224.155 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 224.282 58.42 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 220.218 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 60a51661-b7d3-4d1a-8fb2-6032910d1c0f))
     (pin "2" (uuid 7bb63262-1597-4b14-a2e0-be253e9e1383))
     (pin "3" (uuid 11ba8382-b949-4384-a6ee-236c1b73ab14))
-    (pin "1" (uuid 60a51661-b7d3-4d1a-8fb2-6032910d1c0f))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3182,7 +3176,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 130.81 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 130.81 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89bd6015-e8df-476d-bcca-380f5a48a55c)
     (property "Reference" "D12" (at 130.81 77.47 0)
@@ -3191,15 +3185,15 @@
     (property "Value" "BAT54C" (at 130.81 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 128.905 80.645 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 132.715 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 132.842 83.82 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 128.778 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 211d4482-206d-4de3-9ec5-93846e98821f))
     (pin "2" (uuid cd9cd377-21d6-4a60-a378-0aa42bd23df8))
     (pin "3" (uuid e8df0001-221a-438f-bad4-88a7e9311887))
-    (pin "1" (uuid 211d4482-206d-4de3-9ec5-93846e98821f))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3235,7 +3229,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 240.03 149.86 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 240.03 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d4880b6-8e41-4292-b1e4-82fa6a4f386a)
     (property "Reference" "D35" (at 240.03 143.51 0)
@@ -3244,15 +3238,15 @@
     (property "Value" "BAT54C" (at 240.03 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 238.125 146.685 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 241.935 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 242.062 149.86 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 237.998 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 1203de3c-a158-431a-bb79-2da58b926bc2))
     (pin "2" (uuid fd5bf8b7-f641-4061-9842-46b59292bc35))
     (pin "3" (uuid 54b80567-3fe3-4ddd-8834-fa3c17dd9e5c))
-    (pin "1" (uuid 1203de3c-a158-431a-bb79-2da58b926bc2))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3288,7 +3282,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 72.39 149.86 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 72.39 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e651c3f-81c1-42b7-8389-c427ea1cd794)
     (property "Reference" "D32" (at 72.39 143.51 0)
@@ -3297,15 +3291,15 @@
     (property "Value" "BAT54C" (at 72.39 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 70.485 146.685 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 74.295 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 74.422 149.86 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 70.358 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 9d3f64ee-72f6-40d8-bc0a-0a4768d1dc39))
     (pin "2" (uuid dfca0953-9c52-48d0-a05d-32b1189b9c08))
     (pin "3" (uuid c68ae238-59e5-4af3-9cdb-e2cd21ae50cf))
-    (pin "1" (uuid 9d3f64ee-72f6-40d8-bc0a-0a4768d1dc39))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3341,7 +3335,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 40.64 128.27 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 40.64 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92d38f20-0eb2-4ac1-a142-c7d576cc3145)
     (property "Reference" "D24" (at 40.64 121.92 0)
@@ -3350,15 +3344,15 @@
     (property "Value" "BAT54C" (at 40.64 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 38.735 125.095 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 42.545 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 42.672 128.27 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 38.608 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid b4398072-9f46-4b83-b606-09968afc1483))
     (pin "2" (uuid 387e4e39-fce7-4307-b55a-1b57426b2e4a))
     (pin "3" (uuid 3b17f577-a08d-42af-9532-e5630bb4d73f))
-    (pin "1" (uuid b4398072-9f46-4b83-b606-09968afc1483))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3392,7 +3386,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 129.54 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 129.54 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9419ba33-5be1-4ded-9803-04fa6fd99ea4)
     (property "Reference" "D4" (at 129.54 52.07 0)
@@ -3401,15 +3395,15 @@
     (property "Value" "BAT54C" (at 129.54 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 127.635 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 131.445 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 131.572 58.42 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 127.508 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 0d599d56-f3c8-471e-b7f3-ee80caee6239))
     (pin "2" (uuid b448864b-cf93-4fae-b347-420bb88e9bea))
     (pin "3" (uuid 226984b6-e967-4d86-a1a1-cfce285604ea))
-    (pin "1" (uuid 0d599d56-f3c8-471e-b7f3-ee80caee6239))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3445,7 +3439,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 191.77 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 191.77 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9610f523-5262-450c-83bc-3f1d9199967d)
     (property "Reference" "D6" (at 191.77 52.07 0)
@@ -3454,15 +3448,15 @@
     (property "Value" "BAT54C" (at 191.77 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 189.865 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 193.675 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 193.802 58.42 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 189.738 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 60de295b-0de8-4cde-8e3f-1743175d5808))
     (pin "2" (uuid 605cf31a-5c4b-4081-ba4a-da3bf5f52f4b))
     (pin "3" (uuid f5de28f9-9057-4d31-ade0-3e411d420973))
-    (pin "1" (uuid 60de295b-0de8-4cde-8e3f-1743175d5808))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3565,9 +3559,9 @@
     (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 256.032 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 1814d00e-910d-4755-b8e1-2107a2636250))
     (pin "2" (uuid f6853ff1-28da-4d0f-bd78-acb614c38eab))
     (pin "3" (uuid 5b92d335-fa8b-4f53-ac93-4d1cec4cd8af))
-    (pin "1" (uuid 1814d00e-910d-4755-b8e1-2107a2636250))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3655,7 +3649,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 137.16 128.27 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 137.16 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a51a1642-a262-4c61-9e9b-ba871d836ad0)
     (property "Reference" "D27" (at 137.16 121.92 0)
@@ -3664,15 +3658,15 @@
     (property "Value" "BAT54C" (at 137.16 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 135.255 125.095 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 139.065 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 139.192 128.27 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 135.128 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 347a3ab2-d5a7-42d5-81a5-46ca53cfebc2))
     (pin "2" (uuid d202c8ad-4cd5-4952-96ee-a59fabec4876))
     (pin "3" (uuid 9d5edc89-75f5-4642-b5ea-fa7876f58d3e))
-    (pin "1" (uuid 347a3ab2-d5a7-42d5-81a5-46ca53cfebc2))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3786,7 +3780,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 238.76 128.27 0) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 238.76 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae22a79c-3661-41e0-9c1d-ef2c348f0785)
     (property "Reference" "D30" (at 238.76 121.92 0)
@@ -3795,15 +3789,15 @@
     (property "Value" "BAT54C" (at 238.76 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 240.665 125.095 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 236.855 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 236.728 128.27 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 240.792 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 0799d901-f3ff-499a-88de-c7d3206f4a9d))
     (pin "2" (uuid 3d4e4d29-4621-417f-8b1b-9e64b8e766fd))
     (pin "3" (uuid 714086b6-9593-4f07-86b5-e4fe04ee482c))
-    (pin "1" (uuid 0799d901-f3ff-499a-88de-c7d3206f4a9d))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3943,7 +3937,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 161.29 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 161.29 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5667e65-9662-4b8c-839e-49a77f97beb5)
     (property "Reference" "D5" (at 161.29 52.07 0)
@@ -3952,15 +3946,15 @@
     (property "Value" "BAT54C" (at 161.29 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 159.385 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 163.195 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 163.322 58.42 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 159.258 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 06dc43c5-b1ec-4072-b301-a50938605db7))
     (pin "2" (uuid 97c55156-7bdd-49bb-8181-c0df799bb186))
     (pin "3" (uuid b5392b8e-3ce7-4e73-8ded-a0402c0c3a67))
-    (pin "1" (uuid 06dc43c5-b1ec-4072-b301-a50938605db7))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -3970,7 +3964,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 201.93 128.27 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 201.93 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5a3fd7c-b213-4975-977d-2eff0a13b049)
     (property "Reference" "D29" (at 201.93 121.92 0)
@@ -3979,15 +3973,15 @@
     (property "Value" "BAT54C" (at 201.93 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 200.025 125.095 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 203.835 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 203.962 128.27 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 199.898 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 32700f5b-6f92-40cf-8705-f8d29fd3d629))
     (pin "2" (uuid 4a8b47ed-1b03-4e1e-9e93-c92831254278))
     (pin "3" (uuid 9a908bcd-fec9-4d8e-a7b4-cbd04d4e80e7))
-    (pin "1" (uuid 32700f5b-6f92-40cf-8705-f8d29fd3d629))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4023,7 +4017,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 101.6 106.68 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 101.6 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce9279ec-8691-4596-a63e-10c572851a4b)
     (property "Reference" "D19" (at 101.6 100.33 0)
@@ -4032,15 +4026,15 @@
     (property "Value" "BAT54C" (at 101.6 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 99.695 103.505 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 103.505 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 103.632 106.68 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 99.568 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 6beb9509-4ec2-45f4-acad-12ee6bf77508))
     (pin "2" (uuid b0904a19-9b74-4107-bf43-274e3a2bd8b4))
     (pin "3" (uuid 114b30d1-7b38-4383-a9fe-9ff0a21aae2e))
-    (pin "1" (uuid 6beb9509-4ec2-45f4-acad-12ee6bf77508))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4050,7 +4044,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 163.83 106.68 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 163.83 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4d0b233-3303-455d-80a7-f7eeb01c83f7)
     (property "Reference" "D21" (at 163.83 100.33 0)
@@ -4059,15 +4053,15 @@
     (property "Value" "BAT54C" (at 163.83 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 161.925 103.505 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 165.735 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 165.862 106.68 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 161.798 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid cbe4d850-500e-409b-a09a-b358a102d998))
     (pin "2" (uuid 3a4f8db0-afc9-4c34-8825-6f415643f4c4))
     (pin "3" (uuid 4d9710f4-288d-45d6-acd6-83bf679cf3b3))
-    (pin "1" (uuid cbe4d850-500e-409b-a09a-b358a102d998))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4101,7 +4095,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 223.52 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 223.52 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9243a9c-fdeb-495f-acb1-13dc13bbb73a)
     (property "Reference" "D15" (at 223.52 77.47 0)
@@ -4110,15 +4104,15 @@
     (property "Value" "BAT54C" (at 223.52 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 221.615 80.645 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 225.425 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 225.552 83.82 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 221.488 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 1c6b3f72-7b53-4bc0-835a-18030070743f))
     (pin "2" (uuid e841fc9e-31b7-456b-9fbf-ec2722ab4eab))
     (pin "3" (uuid 3ee32361-da05-4d35-8019-0690c942b5ac))
-    (pin "1" (uuid 1c6b3f72-7b53-4bc0-835a-18030070743f))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4154,7 +4148,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 40.64 149.86 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 40.64 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9e37e43-03cb-45d9-8670-3122f78b8d62)
     (property "Reference" "D31" (at 40.64 143.51 0)
@@ -4163,15 +4157,15 @@
     (property "Value" "BAT54C" (at 40.64 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 38.735 146.685 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 42.545 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 42.672 149.86 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 38.608 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid d422ab66-098b-4d4f-9012-6413d5d25b11))
     (pin "2" (uuid 8ee9532c-20ea-4273-ad35-c88306f144bc))
     (pin "3" (uuid e45370b4-3ed7-4cc5-9a1b-4df30aa08f22))
-    (pin "1" (uuid d422ab66-098b-4d4f-9012-6413d5d25b11))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4181,7 +4175,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 168.91 128.27 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 168.91 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9f0dd93-9d08-46a2-8478-6d634a301f8b)
     (property "Reference" "D28" (at 168.91 121.92 0)
@@ -4190,15 +4184,15 @@
     (property "Value" "BAT54C" (at 168.91 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 167.005 125.095 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 170.815 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 170.942 128.27 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 166.878 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid e658e243-235f-40c1-a406-3776faa9ba50))
     (pin "2" (uuid b7284d56-fd07-4f65-8246-32ba30021ed1))
     (pin "3" (uuid 796e607d-11ee-437a-a796-2ff4864841ca))
-    (pin "1" (uuid e658e243-235f-40c1-a406-3776faa9ba50))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4208,7 +4202,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 71.12 106.68 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 71.12 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid daa9e081-2390-4e00-bfb8-8205f42e29c0)
     (property "Reference" "D18" (at 71.12 100.33 0)
@@ -4217,15 +4211,15 @@
     (property "Value" "BAT54C" (at 71.12 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 69.215 103.505 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 73.025 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 73.152 106.68 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 69.088 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 9a20ce79-8fcd-4908-a5b0-fe079ac3ccfc))
     (pin "2" (uuid 28bf2ad0-6449-4530-9513-eabff1e9681a))
     (pin "3" (uuid 2eaeecde-d560-40b2-a72b-ee59bf54982d))
-    (pin "1" (uuid 9a20ce79-8fcd-4908-a5b0-fe079ac3ccfc))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4287,7 +4281,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 100.33 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 100.33 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0664fd2-4477-40b4-8fa5-1ef370a96459)
     (property "Reference" "D11" (at 100.33 77.47 0)
@@ -4296,15 +4290,15 @@
     (property "Value" "BAT54C" (at 100.33 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 98.425 80.645 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 102.235 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 102.362 83.82 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 98.298 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid d4b07467-b5d3-4e75-b0b9-1159cd73dd94))
     (pin "2" (uuid 713329bf-642b-4b8a-89c7-f3e8c54b7cb9))
     (pin "3" (uuid 97a0dac4-9d34-49ef-b0ce-a873d8ed82fd))
-    (pin "1" (uuid d4b07467-b5d3-4e75-b0b9-1159cd73dd94))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4364,7 +4358,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 68.58 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 68.58 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e928d0f8-a813-42b4-98da-3006c1489b04)
     (property "Reference" "D2" (at 68.58 52.07 0)
@@ -4373,15 +4367,15 @@
     (property "Value" "BAT54C" (at 68.58 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 66.675 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 70.485 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 70.612 58.42 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 66.548 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 08e3c26c-7067-420f-a962-7b50dee93890))
     (pin "2" (uuid dc04e288-1eb7-4494-bd3d-5ce7b5be57d2))
     (pin "3" (uuid a30364e2-3dc0-4e23-b701-576790b388ab))
-    (pin "1" (uuid 08e3c26c-7067-420f-a962-7b50dee93890))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4417,7 +4411,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 39.37 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 39.37 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed3167be-53f2-49aa-973f-2debcaa2d795)
     (property "Reference" "D1" (at 39.37 52.07 0)
@@ -4426,15 +4420,15 @@
     (property "Value" "BAT54C" (at 39.37 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 37.465 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 41.275 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 41.402 58.42 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 37.338 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 028e0baa-bca8-4a17-af26-e7ec3e6bac68))
-    (pin "3" (uuid 6a90cb11-6784-481c-94b1-c59dc215cc5d))
-    (pin "1" (uuid c2e959e8-d59c-495d-a293-d48f080ea695))
+    (pin "1" (uuid 7103cf33-4832-47f0-9597-b90b5a1987f9))
+    (pin "2" (uuid 976ba975-97ea-44c2-be32-2b812742b147))
+    (pin "3" (uuid 1a117ff1-faa1-4da6-91cb-554c136da8bb))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4574,7 +4568,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 99.06 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 99.06 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa19c9a9-36df-44a1-b0de-d29551a4b32c)
     (property "Reference" "D3" (at 99.06 52.07 0)
@@ -4583,15 +4577,15 @@
     (property "Value" "BAT54C" (at 99.06 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 97.155 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 100.965 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 101.092 58.42 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 97.028 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 1aae2af3-e05f-402d-bb0d-6143b53bdb7e))
     (pin "2" (uuid 09705e9a-23b3-4dfc-8c8a-af21f64784e4))
     (pin "3" (uuid 86c7a0fb-0765-4ab2-8eba-a281b3fdb18f))
-    (pin "1" (uuid 1aae2af3-e05f-402d-bb0d-6143b53bdb7e))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
@@ -4601,7 +4595,7 @@
     )
   )
 
-  (symbol (lib_id "Diode:BAT54C") (at 247.65 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "Diode:BAT54C") (at 247.65 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd64e138-9343-43c8-8498-ef50d519e626)
     (property "Reference" "D8" (at 247.65 52.07 0)
@@ -4610,15 +4604,15 @@
     (property "Value" "BAT54C" (at 247.65 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 245.745 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 249.555 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 249.682 58.42 0)
+    (property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf" (at 245.618 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid f913784a-7a46-48bc-9497-c79a197ed90d))
     (pin "2" (uuid 951f4695-68a7-45b8-8bf3-3022ab3fda94))
     (pin "3" (uuid 12cba77d-86a7-47c6-bccf-60400800e7d3))
-    (pin "1" (uuid f913784a-7a46-48bc-9497-c79a197ed90d))
     (instances
       (project "CODA65"
         (path "/33ce4dbb-1d04-4b2d-9cde-6cc03c168fa4/fe44eb25-ace8-4884-b9d5-e7eefbf2b910"
