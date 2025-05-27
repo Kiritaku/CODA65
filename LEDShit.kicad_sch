@@ -2019,6 +2019,12 @@
     (uuid ffefcaa7-d552-40b4-8459-3897760b5c37)
   )
 
+  (text "_____NOTES_____\n-Change GND to face down\n-Try to make a lil cleaner lookin"
+    (at 355.6 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 25394328-8c8c-4feb-b1bd-273ba86457bc)
+  )
+
   (global_label "LED_DATAO" (shape input) (at 367.03 223.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 31eb0a23-a189-4272-bb27-468759cd6e77)

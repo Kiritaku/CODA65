@@ -1362,6 +1362,11 @@
     (uuid f8539471-230e-4a20-890f-2fe38cf643a0)
   )
 
+  (text "_____NOTES_____\n-Annotate " (at 20.32 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a4a27c84-45f0-486a-aae9-95ee51deee42)
+  )
+
   (global_label "Q_IO2" (shape input) (at 133.35 41.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 038b82b4-01f5-483c-b467-302c63313e83)
@@ -3203,7 +3208,7 @@
     (property "Sheetname" "LED Matrix" (at 88.9 145.3384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "LEDShit.kicad_sch" (at 88.9 193.6246 0)
+    (property "Sheetfile" "LEDMatrix.kicad_sch" (at 88.9 193.6246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -3220,7 +3225,7 @@
     (property "Sheetname" "Matrix" (at 13.97 145.3384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Matrix.kicad_sch" (at 13.97 193.6246 0)
+    (property "Sheetfile" "KeyMatrix.kicad_sch" (at 13.97 193.6246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
